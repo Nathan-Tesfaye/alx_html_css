@@ -1,0 +1,301 @@
+body {
+    font-family: "Source Code Pro", monospace;
+}
+
+.landingpage {
+    background-image: url(Images/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    padding: 35px;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+    margin-top: 5px;
+    gap: 52px;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    word-spacing: -35px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.emotions {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 61px;
+    margin-top: 10px;
+}
+
+.button_container {
+    text-align: center;
+    margin-top: 38px;
+}
+
+.button {
+    font-size: 14px;
+    padding: 13px 21px 13px 21px;
+    background-color: #C271FF;
+    color: white;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.home_h2 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300; 
+    letter-spacing: -3px;
+    word-spacing: -8px; 
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.purple {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.winners {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding: 0px 50px 50px 50px;
+    margin-top: 50px;
+}
+
+.winners p {
+    color: white;
+}
+
+.winners h3{
+    color: white;
+}
+
+.winners h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.winners p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.testimonial {
+    background-color: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 108px;
+    padding-bottom: 124px;
+}
+
+.weather-presenter {
+    margin-right: 53px;
+}
+
+.quote {
+    color: white;
+}
+
+.quote blockquote {
+    margin-bottom: 22px;
+    font-size: 17px;
+    word-spacing: -3px;
+}
+
+.quote h3 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.quote p {
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+
+.tutorials-h2 {
+    font-size: 32px;
+    word-spacing: -8px;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 75px;
+}
+
+.tutorials h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.tutorials p {
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+.tutorials h4 {
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.spaced-lines {
+    line-height: 20px;
+}
+
+.resize {
+    width: 30px;
+    height: 30px;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 58px;
+    margin-right: 58px;
+    margin-bottom: 58px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 79px;
+    margin-top: 10px;
+    color: #C271FF;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.membership {
+    background-color: #071629;
+    color: white;
+    width: 1440;
+    height: 502;
+}
+
+.membership img {
+    margin-bottom: 26px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 100px;
+    margin-bottom: 68px;
+    text-align: center;
+}
+
+.membership h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.membership p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 85px;
+    padding-left: 20px;
+    padding-right: 2%;
+}
+
+.membership-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.membership_button {
+    text-align: center;
+    padding-bottom: 52px;
+}
+
+.faq h2 {
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 67px;
+}
+
+.faq h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 74px;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: space-between  ;
+    font-size: 12px;
+    padding: 0px 100px 0px 100px;
+    
+}
+
+footer {
+    background-color: #071629;
+    height: 249px;
+    margin-top: 92px;
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.socials {
+    display: flex;
+    justify-content: end;
+    padding-top: 95px;
+    margin-bottom: 70px;
+    padding-right: 240px;
+    padding-left: 165px;
+}
+
+.socials > img {
+    margin-right: auto;
+}
+
+.copyright {
+    text-align: center;
+}
