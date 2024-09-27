@@ -3,4 +3,36 @@
     --light: #FF6565;
     --dark: #071629;
 }
+/* Wrapper for max width, I could've added this to base.css to avoid repetition */
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(images/header/headphones_hero_2.jpg);
+    color: white;
+}
+
+.achivement {
+    padding-top: 141px;
+    text-align: center;
+}
+
+.light_h1 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.achivement p {
+    margin-bottom: 52px;
+    font-weight: lighter;
+}
+
+.hexagons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 79px;
+}
+
 
