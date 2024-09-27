@@ -3,3 +3,91 @@
     --light: #FF6565;
     --dark: #071629;
 }
+
+
+body {
+    background-image: url(images/header/headphones_hero_1.jpg);
+} 
+
+
+/* wrapper for maximum width */
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* button */
+
+.btn {
+    padding: 13px 31px;
+    border-radius: 22px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    background: var(--light);
+    text-decoration: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Adding drop shadow */
+    /* cursor: pointer; */
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+    
+
+/* OR
+
+header {
+    background-image: url(images/header/headphones_hero_1.jpg);
+    height: 100vh;
+    width: 100%; of the parent element in this case the body
+}   */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    /* position: fixed;
+    width: 1000px;
+    top: 32px; 
+    z-index: 100; */
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* hero section */
+
+.hero-section {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 242px;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.content-area {
+    margin-bottom: 115px;
+}
