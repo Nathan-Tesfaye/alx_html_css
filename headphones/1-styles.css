@@ -4,3 +4,55 @@
     --dark: #071629;
 }
 
+/* wrapper for max width */
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* icons dimensions, orginal png are not equal */
+
+.icon {
+    width: 67.59px;
+    height: 76.8px;
+}
+
+.top {
+    text-align: center;
+    padding-top: 110px;
+}
+
+.dark_h1 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.top_content p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 97px;
+}
+
+.top_content {
+    width: 637px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 169px;
+}
+
+.bottom h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom p {
+    font-size: 14px;
+}
