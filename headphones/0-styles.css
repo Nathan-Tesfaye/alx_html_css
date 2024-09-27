@@ -4,18 +4,11 @@
     --dark: #071629;
 }
 
-
-body {
-    background-image: url(images/header/headphones_hero_1.jpg);
-} 
-
-/* OR
-
 header {
     background-image: url(images/header/headphones_hero_1.jpg);
-    height: 100vh; the whole viewport height
-    width: 100%; of the parent element in this case the body
-}   */
+    height: 100%;
+    width: 100%;
+}  
 
 
 /* wrapper for maximum width */
@@ -81,7 +74,7 @@ a {
     text-align: center;
 }
 
-h1 {
+.light_heading {
     padding-top: 242px;
 }
 
@@ -91,5 +84,6 @@ h1 {
 }
 
 .content-area {
-    margin-bottom: 115px;
+    padding-bottom: 115px;
 }
+
