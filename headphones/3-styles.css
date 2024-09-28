@@ -4,3 +4,232 @@
     --dark: #071629;
 }
 
+header {
+    background-image: url(images/header/headphones_hero_1.jpg);
+}  
+
+
+
+
+/* button */
+
+.btn {
+    padding: 13px 31px;
+    border-radius: 22px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    background: var(--light);
+    text-decoration: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Adding drop shadow */
+    /* cursor: pointer; */
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+    
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    /* position: fixed;
+    width: 1000px;
+    top: 32px; 
+    z-index: 100; */
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* hero section */
+
+.hero-section {
+    color: white;
+    text-align: center;
+}
+
+.light_heading {
+    padding-top: 242px;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.content-area {
+    padding-bottom: 115px;
+}
+
+/* end of header */
+
+
+/* what we do */
+
+
+.icon {
+    width: 67.59px;
+    height: 76.8px;
+}
+/* icons dimensions, orginal png are not equal */
+
+
+.top {
+    text-align: center;
+    padding-top: 110px;
+}
+
+.dark_h1 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.top_content p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 97px;
+}
+
+/* width added to display the content accurately, consider effect during reponsive design */
+.top_content {
+    width: 637px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 169px;
+}
+
+.bottom h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom p {
+    font-size: 14px;
+}
+
+
+/* end of about us section / what we do */
+
+
+/* Our results section */
+
+.our_results {
+    background-image: url(images/header/headphones_hero_2.jpg);
+    color: white;
+}
+
+.achivement {
+    padding-top: 141px;
+    text-align: center;
+}
+
+.light_h1 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.achivement p {
+    margin-bottom: 52px;
+    font-weight: lighter;
+}
+
+.hexagons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 79px;
+}
+
+
+/* end of our results section */
+
+
+/* Contac us section */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 101px;
+}
+
+.contact h1 {
+    margin-bottom: 56px;
+}
+
+.username {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+#name {
+    border: none;
+    border-bottom: 1px solid #979797;
+    width: 335px;
+    outline: none;
+    padding: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.mail {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+#email {
+    border: none;
+    border-bottom: 1px solid #979797;
+    width: 335px;
+    outline: none;
+    padding: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.comment {
+    display: flex;
+    margin-bottom: 56px;
+}
+
+#message {
+    border: none;
+    border-bottom: 1px solid #979797;
+    width: 335px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact_btn {
+    margin-bottom: 156px;
+}
