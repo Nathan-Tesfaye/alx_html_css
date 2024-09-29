@@ -4,9 +4,10 @@
     --dark: #071629;
 }
 
-
-header {
+#header_section {
     background-image: url(images/header/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
 }  
 
 
@@ -47,6 +48,10 @@ nav {
     z-index: 100; */
 }
 
+.mobile_nav {
+    display: none;
+}
+
 ul {
     display: flex;
     align-items: center;
@@ -84,8 +89,9 @@ a {
 /* end of header */
 
 
-/* what we do */
 
+
+/* what we do */
 
 .icon {
     width: 67.59px;
@@ -134,8 +140,7 @@ a {
     font-size: 14px;
 }
 
-
-/* end of about us section / what we do */
+/* end of what we do section */
 
 
 /* Our results section */
@@ -168,6 +173,7 @@ a {
 
 
 /* end of our results section */
+
 
 
 /* Contac us section */
@@ -269,3 +275,170 @@ footer {
     padding-bottom: 39px;
 }
 
+/* end of footer section */
+
+
+
+@media (max-width: 480px) {
+
+    html, body {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        padding: 0px 20px 0px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mobile_nav {
+        display: flex;
+        align-items: center;
+        padding: 29px 0px 0px 21px;
+    }
+
+    .mobile_logo {
+        max-width: 161px;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;      
+    }
+
+    .dark_h1 {
+        text-align: center;
+    }
+
+    
+    /* .mobile_menu_container {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--dark);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 200;
+    } */
+
+
+/* what we do section */
+    .top_content {
+        max-width: 323px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 169px;
+        gap: 96px;
+    }
+
+
+/* end of what we do section */
+
+
+/* Our result section */
+
+    .our_results {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .achivement {
+        max-width: 330px;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .achivement h1 {
+        max-width: 213px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .achivement p {
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .hexagons {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        max-width: 190px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+/* end of our results section */
+
+
+/* contact us section */
+
+    .form {
+        max-width: 335px;
+        width: 100%;
+    }
+
+/* end of contact us section */
+
+
+/* footer seection */
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .footer_logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer_logo_image {
+        max-width: 162px;
+        width: 100%;
+    }
+
+    .socials {
+        display: flex;
+        max-width: 130px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .social_logos {
+        max-width: 100%;
+    }
+
+   /* end of footer section */
+
+}
