@@ -59,11 +59,18 @@ ul {
     list-style: none;
 }
 
-a {
+.ul a {
     text-decoration: none;
     color: white;
     font-size: 12px;
     font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.ul a:hover {
+    transform: scale(1.2);
+    color: var(--light);
 }
 
 /* hero section */
@@ -138,6 +145,14 @@ a {
 
 .bottom p {
     font-size: 14px;
+}
+
+.bottom * {
+    transition: transform 0.5s ease;
+}
+
+.bottom *:hover {
+    transform: scale(1.2);
 }
 
 /* end of what we do section */
